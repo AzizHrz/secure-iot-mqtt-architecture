@@ -1,11 +1,11 @@
-# 🔐 IoT MQTT Security — TP4
+# IoT MQTT Security
 
 > A complete hands-on lab for analyzing and securing an IoT architecture based on the MQTT protocol.  
 > **Stack:** Debian Linux · Mosquitto 2.0.21 · ESP32 (real hardware) · PlatformIO · Wireshark · OpenSSL
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Architecture](#architecture)
