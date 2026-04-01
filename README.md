@@ -459,18 +459,15 @@ tp4-mqtt-security/
 │   ├── tp4_auth.conf             # Part 3 — authentication
 │   └── tp4_tls.conf              # Part 4 — TLS + auth
 ├── esp32/
-│   ├── part1_nosecurity/
-│   │   └── src/main.cpp          # Plain MQTT publisher
-│   ├── part3_auth/
-│   │   └── src/main.cpp          # MQTT with credentials
-│   └── part4_tls/
-│       └── src/main.cpp          # MQTT over TLS
+│   └──  src
+│       ├── main_part1_nosecurity.cpp          # Plain MQTT publisher
+│       ├── main_part3_auth.cpp   # MQTT with credentials
+│       └── main_part4_tls.cpp    # MQTT over TLS  
 ├── scripts/
 │   ├── benchmark.sh              # Latency and throughput test
-│   └── gen_certs.sh              # Certificate generation script
-└── captures/
-    ├── part2_vulnerable.pcap     # Wireshark — plaintext MQTT
-    └── part4_tls.pcap            # Wireshark — encrypted TLS
+└── assets/
+    ├── wireshark_plaintext.png   # Wireshark — plaintext MQTT
+    └── wireshark_tls.png         # Wireshark — encrypted TLS
 ```
 
 ---
