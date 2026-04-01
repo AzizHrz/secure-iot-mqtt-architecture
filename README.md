@@ -5,6 +5,21 @@
 
 ---
 
+## Full Documentation
+
+> **Looking for the complete guide with screenshots and terminal captures?**
+> The full lab report is available below — it covers every step with
+> annotated Wireshark captures, terminal outputs, and configuration files.
+
+| Document | Language | Description |
+|---|---|---|
+| [📄 Lab Report (PDF)](docs/CR_SecureMQTT.pdf) | French | Full report — all 5 parts with screenshots |
+
+> **The README below is a quick technical reference.**
+> **For the full walkthrough with screenshots → open the report above.**
+
+---
+
 ## Table of Contents
 
 - [Overview](#overview)
@@ -454,6 +469,8 @@ chmod +x benchmark.sh
 ```
 tp4-mqtt-security/
 ├── README.md
+├── docs
+│    └── CR_SecureMQTT.docx
 ├── mosquitto/
 │   ├── tp4_vulnerable.conf       # Part 1 — no security
 │   ├── tp4_auth.conf             # Part 3 — authentication
